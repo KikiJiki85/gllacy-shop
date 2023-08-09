@@ -1,13 +1,41 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GlaccyShop</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci voluptate debitis voluptatibus minima corrupti iste modi? Nesciunt nisi ut soluta ducimus voluptas magnam, temporibus, reprehenderit fuga eaque error alias at!
-    Accusantium perferendis modi eos, voluptate alias tenetur saepe odit voluptas molestiae aut enim ab harum qui sit iusto nesciunt non est odio repudiandae. Sit distinctio atque totam error et quaerat!</h1>
+<body class="page-body">
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a class="header__link">
+                        <img src="assets/img/logo.svg" alt="Company logo" class="header__logo">
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link header__catalog">Каталог</a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">Доставка и оплата</a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">О компании</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__right-nav">
+            <a class="header__phone header__link" href="tel:+78005558628">+7 800 555-86-28</a>
+            <form class="header__search" action="#">
+                <input class="header__search-field" type="search" name="search" id="" placeholder="Поиск по сайту">
+            </form>
+            <ul class="header__user-nav">
+                <li><a href="" class="header__login-link header__link">Вход</a></li>
+            </ul>
+            <a href="" class="header__basket header__link">2 товара</a>
+        </div>
+    </header>
 </body>
 </html>

@@ -1,0 +1,104 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+
+    &__list {
+        @include list-reset;
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+
+    &__right-nav {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+    }
+
+    &__user-nav {
+        @include list-reset;
+    }
+
+    &__item {
+        line-height: 100%;
+    }
+
+    &__link {
+        color: $text-font-color;
+        display: flex;
+        position: relative;
+
+    }
+
+    &__catalog {
+        padding-right: 25px;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            background: url(/assets/img/catalog.svg) no-repeat;
+            content: '';
+            width: 16px;
+            height: 16px;
+            right: 0;
+            top: -2px;
+
+        }
+    }
+
+    &__phone {
+        font-weight: 700;
+    }
+
+    &__search {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(252, 252, 252, 0.30) url(/assets/img/search.svg) no-repeat 50% 50%;
+        cursor: pointer;
+    }
+
+    &__search-field {
+        position: absolute;
+        display: none;
+    }
+
+    &__basket {
+        position: relative;
+        padding: 6px 16px 6px 32px;
+        border-radius: 15px;
+        background: rgba(252, 252, 252, 0.30);
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 16px;
+            height: 16px;
+            left: 12px;
+            top: 7px;
+            background: url(/assets/img/cart.svg) no-repeat 50% 50%;
+        }
+    }
+
+    &__login-link {
+        position: relative;
+        padding: 6px 16px 6px 36px;
+        border-radius: 15px;
+        background: rgba(252, 252, 252, 0.30);
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            width: 16px;
+            height: 16px;
+            left: 15px;
+            top: 7px;
+            background: url(/assets/img/login.svg) no-repeat 50% 50%;
+        }
+    }
+}

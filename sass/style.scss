@@ -1,9 +1,7 @@
-$bcg-color-main: aquamarine;
+@import "normalize.scss";
+@import "fonts.scss";
+@import "variables.scss";
+@import "scaffolding.scss";
+@import "mixins.scss";
 
-body {
-    background-color: $bcg-color-main ;
-}
-
-h1 {
-    font-weight: normal;
-}
+@import "blocks/header.scss"
