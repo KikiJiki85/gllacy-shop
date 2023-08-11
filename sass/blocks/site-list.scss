@@ -1,0 +1,12 @@
+.site-list {
+    @include list-reset;
+    display: flex;
+    align-items: center;
+
+
+    &__link {
+        display: inline-block;
+        color: $text-font-color;
+        padding: 8px 16px;
+    }
+}
