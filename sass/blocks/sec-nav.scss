@@ -1,10 +1,14 @@
 .sec-nav {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 15px;
 
     &__link {
         color: $text-font-color;
+    }
+
+    &--phone {
+        font-weight: 700;
     }
 
     &__search-form {
@@ -20,5 +24,15 @@
 
     &__search-field {
         display: none;
+    }
+
+    &--login,
+    &--cart {
+        font-size: 14px;
+        padding: 6px 17px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 30px;
+        display: flex;
+        gap: 6px;
     }
 }

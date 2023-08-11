@@ -1,5 +1,11 @@
 .slider {
     position: relative;
+    min-height: 554px;
+    padding-top: 24px;
+
+    &__list {
+        @include list-reset;
+    }
 
     &__card {
         display: flex;
@@ -11,13 +17,47 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 455px;
     }
 
     &__text-header {
-
+        margin: 0;
         font-size: 36px;
-        font-weight: 700;
+        font-weight: 900;
         line-height: 46px;
+    }
+
+    &__text {
+        margin-top: 26px;
+        margin-bottom: 0;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    &__button {
+        background-color: #ffffff;
+        margin-top: 48px;
+    }
+
+    &__arrow-left,
+    &__arrow-right {
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    &__arrow-right {
+        margin-left: -20px;
+    }
+
+    &__img-main {
+        position: relative;
+        margin-left: -20px;
+    }
+
+    &__img-next {
+        width: 100px;
+        height: 150px;
+        margin-left: auto;
     }
 
     &__social {
@@ -30,5 +70,25 @@
         position: absolute;
         bottom: 0;
         left: 0;
+        @include list-reset;
+        display: flex;
+        gap: 8px;
+    }
+
+    &__controls-button {
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &--active {
+            opacity: 1;
+        }
     }
 }
