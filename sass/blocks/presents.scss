@@ -1,0 +1,15 @@
+.presents {
+    &__header {
+        margin-top: 0;
+        margin-bottom: 55px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 46px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

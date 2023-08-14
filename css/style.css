@@ -391,6 +391,12 @@ img {
   height: auto;
 }
 
+.page-main {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 .page-header {
   display: flex;
   align-items: center;
@@ -534,6 +540,50 @@ img {
 }
 .slider__controls-button--active {
   opacity: 1;
+}
+
+.presents__header {
+  margin-top: 0;
+  margin-bottom: 55px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 46px;
+}
+.presents__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gift-card {
+  padding: 36px 0 0 36px;
+  background-color: #F79;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 16px;
+  min-width: 570px;
+}
+.gift-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.gift-card__header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0;
+}
+.gift-card__text {
+  max-width: 304px;
+  line-height: 22px;
+  margin: 0;
+}
+.gift-card__button {
+  align-self: flex-start;
+}
+.gift-card__img {
+  margin-top: -37px;
 }
 
 .social {

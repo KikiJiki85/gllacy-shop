@@ -1,0 +1,35 @@
+.gift-card {
+    padding: 36px 0 0 36px;
+    background-color: $bg-gift-card;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    min-width: 570px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    &__header {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        margin: 0;
+    }
+
+    &__text {
+        max-width: 304px;
+        line-height: 22px;
+        margin: 0;
+    }
+
+    &__button {
+        align-self: flex-start;
+    }
+
+    &__img {
+        margin-top: -37px;
+    }
+}
