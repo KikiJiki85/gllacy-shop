@@ -1,0 +1,22 @@
+.popular {
+
+    &__header {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 46px;
+        margin-top: 0;
+        margin-bottom: 107px;
+    }
+
+    &__list {
+        @include list-reset;
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item {
+        max-width: 270px;
+        flex-grow: 1;
+    }
+}
