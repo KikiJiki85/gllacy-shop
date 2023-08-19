@@ -656,6 +656,52 @@ img {
   opacity: 0.7;
 }
 
+.advantages {
+  padding: 24px;
+  background: url(../assets/img/adv-bcg.png);
+}
+.advantages__wrapper {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 57px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.advantages__header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 46px;
+  margin-top: 0;
+  margin-bottom: 55px;
+}
+.advantages__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px 33px;
+}
+.advantages__item {
+  padding-left: 64px;
+  line-height: 22px;
+  background-repeat: no-repeat;
+}
+.advantages__item:nth-child(1) {
+  background-image: url(../assets/img/ice-cream.svg);
+}
+.advantages__item:nth-child(2) {
+  background-image: url(../assets/img/cow.svg);
+}
+.advantages__item:nth-child(3) {
+  background-image: url(../assets/img/leaf.svg);
+}
+.advantages__item:nth-child(4) {
+  background-image: url(../assets/img/thermometer.svg);
+}
+
 .social {
   list-style: none;
   margin: 0;
