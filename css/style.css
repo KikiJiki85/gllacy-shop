@@ -630,6 +630,7 @@ img {
   font-weight: 400;
   line-height: 22px;
   margin-top: 0;
+  color: #565C66;
 }
 .icecream-card__price-wrapper {
   align-self: stretch;
@@ -688,6 +689,7 @@ img {
   padding-left: 64px;
   line-height: 22px;
   background-repeat: no-repeat;
+  color: #565C66;
 }
 .advantages__item:nth-child(1) {
   background-image: url(../assets/img/ice-cream.svg);
@@ -700,6 +702,75 @@ img {
 }
 .advantages__item:nth-child(4) {
   background-image: url(../assets/img/thermometer.svg);
+}
+
+.blog-and-subs {
+  display: flex;
+  gap: 30px;
+}
+
+.blog-preview {
+  flex-basis: 50%;
+  background: #ffffff url(../assets/img/blog-bcg.png) top right no-repeat;
+  border-radius: 16px;
+  padding-top: 33px;
+  padding-left: 32px;
+  min-height: 224px;
+}
+.blog-preview__header {
+  color: #565C66;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+.blog-preview__snippet {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.subscribe {
+  flex-basis: 50%;
+  background-image: url(../assets/img/subs-bcg.png);
+  background-repeat: no-repeat;
+  padding: 6px;
+}
+.subscribe__wrapper {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 26px 26px 28px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.subscribe__text {
+  color: #565C66;
+  line-height: 22px;
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+.subscribe__form {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+}
+.subscribe__input {
+  flex-grow: 1;
+}
+.subscribe__button {
+  min-width: 152px;
+}
+
+.input {
+  border-radius: 4px;
+  color: #B9B9B9;
+  border: 1px solid #B9B9B9;
+  height: 48px;
+  padding: 14px 16px;
 }
 
 .social {
@@ -730,5 +801,11 @@ img {
 }
 .button:hover {
   opacity: 0.7;
+}
+.button--red {
+  color: #ffffff;
+  border-radius: 26px;
+  outline: 4px solid rgba(255, 47, 100, 0.3);
+  background: #FF2F64;
 }
 /*# sourceMappingURL=style.css.map */

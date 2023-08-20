@@ -1,0 +1,27 @@
+.blog-preview {
+    flex-basis: 50%;
+    background: #ffffff url(../assets/img/blog-bcg.png) top right no-repeat;
+
+    border-radius: 16px;
+    padding-top: 33px;
+    padding-left: 32px;
+    min-height: 224px;
+
+
+    &__header {
+        color: $text-font-color-sec;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: -1px;
+        margin-bottom: 0;
+    }
+
+    &__snippet {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 14px;
+        margin-bottom: 0;
+    }
+}

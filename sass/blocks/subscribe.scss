@@ -1,0 +1,36 @@
+.subscribe {
+    flex-basis: 50%;
+    background-image: url(../assets/img/subs-bcg.png);
+    background-repeat: no-repeat;
+    padding: 6px;
+
+    &__wrapper {
+        background-color: #ffffff;
+        border-radius: 16px;
+        padding: 26px 26px 28px 26px;
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+
+    &__text {
+        color: $text-font-color-sec;
+        line-height: 22px;
+        margin-top: -1px;
+        margin-bottom: 0;
+    }
+
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        gap: 22px;
+    }
+
+    &__input {
+        flex-grow: 1;
+    }
+
+    &__button {
+        min-width: 152px;
+    }
+}
