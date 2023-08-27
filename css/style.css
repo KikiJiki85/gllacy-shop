@@ -773,6 +773,76 @@ img {
   padding: 14px 16px;
 }
 
+.delivery {
+  min-height: 534px;
+  background-image: url(../assets/img/delivery-bcg.png);
+  padding: 64px 64px 64px 100px;
+  display: flex;
+  gap: 135px;
+}
+.delivery__header {
+  color: #2D3440;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 46px;
+  margin-top: 103px;
+  margin-bottom: 0;
+}
+.delivery__text {
+  color: #565C66;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 23px;
+}
+.delivery__form {
+  min-height: 406px;
+  width: 82%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 40px 40px 42px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.delivery__form-text {
+  margin-top: 0;
+  line-height: 22px;
+  margin-bottom: 31px;
+}
+.delivery__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.delivery__fieldset--phone {
+  flex-grow: 1;
+}
+.delivery__label {
+  font-weight: 700;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+.delivery__label--address {
+  margin-top: 20px;
+}
+.delivery__svg {
+  margin-left: 4px;
+}
+.delivery__input-wrapper {
+  display: flex;
+  gap: 16px;
+}
+.delivery__input--date {
+  width: 117px;
+}
+.delivery__input--phone {
+  width: 100%;
+}
+.delivery__button {
+  align-self: center;
+  margin-top: 32px;
+}
+
 .social {
   list-style: none;
   margin: 0;
