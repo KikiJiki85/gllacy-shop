@@ -1,0 +1,56 @@
+.feedback {
+    display: flex;
+    background-image: url(../assets/img/feedback-bcg.png);
+    background-repeat: no-repeat;
+    padding: 64px;
+
+    &__contacts {
+        background-color: #FCFCFC;
+        border-radius: 8px;
+        box-shadow: 0px 8px 16px 0px rgba(45, 52, 64, 0.12);
+        padding: 40px;
+        max-width: 343px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__header,
+    &__text {
+        color: $text-font-color-sec;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 0;
+        margin-bottom: 11px;
+    }
+
+    &__address {
+        color: $text-font-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    &__tel {
+        color: $text-font-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 0;
+    }
+
+    &__hours {
+        color: $text-font-color-sec;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+
+    &__button {
+        margin-top: 19px;
+        align-self: flex-start;
+    }
+}
