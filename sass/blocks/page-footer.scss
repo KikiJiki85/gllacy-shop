@@ -1,0 +1,46 @@
+.page-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+    &__links {
+        @include list-reset;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 24px;
+    }
+
+    &__link {
+        color: $text-font-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+
+
+        &::before {
+            content: '';
+            display: flex;
+            width: 16px;
+            height: 16px;
+        }
+
+        &--active {
+            font-weight: 700;
+            position: relative;
+
+            &::before {
+                background-image: url(../assets/img/heart.svg);
+            }
+        }
+    }
+
+    &__copyright {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+    }
+}
